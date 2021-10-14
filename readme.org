@@ -1,0 +1,38 @@
+* Haskell Template
+
+
+[[../../actions/workflows/build.yml/badge.svg]]
+
+A simple Haskell project template that uses stack.
+
+The project is setup using the following tools & frameworks:
+
+** Project buidling
+ - Compiler: [[https://www.haskell.org/ghc/][ghc]]
+ - Build Tooling: [[https://docs.haskellstack.org/en/stable/README/][stack]]
+   - Build library: [[https://www.haskell.org/cabal/][cabal]]
+
+**  Unit Testing
+   - [[https://hackage.haskell.org/package/HUnit][Hunit]]
+   - [[https://hackage.haskell.org/package/tasty][tasty]]
+
+** Dev & Usage
+
+*** Building
+
+    #+BEGIN_SRC sh
+    stack build
+    #+END_SRC v
+
+*** Testing
+
+    #+BEGIN_SRC sh
+    stack test
+    #+END_SRC 
+
+*** Run
+
+    #+BEGIN_SRC sh
+    stack run
+    #+END_SRC 
+
